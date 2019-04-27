@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="参考地址:iOS 7下计算文本高度注意事项 !--![测试图片](http://7xspgq.com2.z0.glb.clouddn.com/textHeightTest.png)-- 计算文本高度分为:   不使用自动布局代码直接设置高度 使用自动布局 更改约束值   1.不使用自动布局 直接设置 frame 计算高">
+<meta name="description" content="计算文本高度分为:   不使用自动布局代码直接设置高度 使用自动布局 更改约束值   1.不使用自动布局 直接设置 frame 计算高度先取消自动布局self.view.translatesAutoresizingMaskIntoConstraints = NO; 调用 NSString 的方法计算高度 1234CGR">
 <meta property="og:type" content="article">
 <meta property="og:title" content="计算文本高度">
-<meta property="og:url" content="http://yoursite.com/2016/04/07/2016-04-07-ios-ji-suan-wen-ben-gao-du/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/04/27/计算文本高度/index.html">
 <meta property="og:site_name" content="秦歌的技术博客">
-<meta property="og:description" content="参考地址:iOS 7下计算文本高度注意事项 !--![测试图片](http://7xspgq.com2.z0.glb.clouddn.com/textHeightTest.png)-- 计算文本高度分为:   不使用自动布局代码直接设置高度 使用自动布局 更改约束值   1.不使用自动布局 直接设置 frame 计算高度先取消自动布局self.view.translatesAutoresizing">
+<meta property="og:description" content="计算文本高度分为:   不使用自动布局代码直接设置高度 使用自动布局 更改约束值   1.不使用自动布局 直接设置 frame 计算高度先取消自动布局self.view.translatesAutoresizingMaskIntoConstraints = NO; 调用 NSString 的方法计算高度 1234CGRect rect = [text boundingRectWithSize:ma">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://7xspgq.com2.z0.glb.clouddn.com/labelHeightCeill.png">
-<meta property="og:updated_time" content="2016-06-15T16:07:07.000Z">
+<meta property="og:updated_time" content="2019-04-27T07:16:46.890Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="计算文本高度">
-<meta name="twitter:description" content="参考地址:iOS 7下计算文本高度注意事项 !--![测试图片](http://7xspgq.com2.z0.glb.clouddn.com/textHeightTest.png)-- 计算文本高度分为:   不使用自动布局代码直接设置高度 使用自动布局 更改约束值   1.不使用自动布局 直接设置 frame 计算高度先取消自动布局self.view.translatesAutoresizing">
+<meta name="twitter:description" content="计算文本高度分为:   不使用自动布局代码直接设置高度 使用自动布局 更改约束值   1.不使用自动布局 直接设置 frame 计算高度先取消自动布局self.view.translatesAutoresizingMaskIntoConstraints = NO; 调用 NSString 的方法计算高度 1234CGRect rect = [text boundingRectWithSize:ma">
 <meta name="twitter:image" content="http://7xspgq.com2.z0.glb.clouddn.com/labelHeightCeill.png">
 
 
@@ -121,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/04/07/2016-04-07-ios-ji-suan-wen-ben-gao-du/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/04/27/计算文本高度/"/>
 
 
 
@@ -234,7 +234,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/04/07/2016-04-07-ios-ji-suan-wen-ben-gao-du/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/27/计算文本高度/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="qin">
@@ -263,8 +263,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-07T23:29:27+08:00">
-                2016-04-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-27T14:22:12+08:00">
+                2019-04-27
               </time>
             
 
@@ -273,28 +273,6 @@
             
           </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/开发技巧/" itemprop="url" rel="index">
-                    <span itemprop="name">开发技巧</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -323,9 +301,7 @@
       
 
       
-        <p>参考地址:<br><a href="http://blog.csdn.net/pp204204/article/details/17711383" target="_blank" rel="noopener">iOS 7下计算文本高度注意事项</a></p>
-<a href="!--![测试图片](http://7xspgq.com2.z0.glb.clouddn.com/textHeightTest.png)--">!--![测试图片](http://7xspgq.com2.z0.glb.clouddn.com/textHeightTest.png)--</a>
-<p>计算文本高度分为:</p>
+        <p>计算文本高度分为:</p>
 <blockquote>
 <ul>
 <li>不使用自动布局代码直接设置高度</li>
@@ -362,26 +338,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/04/07/2016-04-07-octopressbo-ke-da-jian-guo-cheng/" rel="next" title="Octopress博客搭建过程，以及常用指令">
-                <i class="fa fa-chevron-left"></i> Octopress博客搭建过程，以及常用指令
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/06/19/2016-06-19-ban-quan-sheng-ming/" rel="prev" title="版权声明">
-                版权声明 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
       
 
       
@@ -455,21 +411,12 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">分类</span>
-                
-              </div>
             
 
             
